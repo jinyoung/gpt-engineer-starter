@@ -1,0 +1,28 @@
+음식 배달앱을 만들고 싶어. 
+
+다음 기술들을 사용할거야:
+
+- clean architecture
+- spring-boot3
+- spring-data-rest
+- JPA (must use package jakarta.persistence.* instead of javax.persistence.*)
+- H2 DB
+- Lombok
+- Kafka with spring-cloud-streams library 
+- JUnit Test
+
+
+SELF-CRITICISM: 
+ - when you create pom.xml, USE correct parent project to spring boot 3
+ - when you create pom.xml, you MUST specify the version: 3.1.3 ONLY for the spring-cloud-streams
+ - Please generate start from pom.xml
+
+
+when you create execution shell (run.sh), please add '--no-transfer-progress' option not to output transfer progress if there's mvn command:
+
+```
+mvn [command] --no-transfer-progress
+```
+
+
+구현과정을 한글로 설명해줘.
